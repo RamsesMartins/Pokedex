@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 *{
     box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
 }
 
 body{
@@ -14,6 +16,15 @@ main{
     display: inline-block;
     padding: 0px;
     margin: 0px;
+}
+p{
+    position: absolute;
+    font-size: 80%;
+    height: 5%;
+    width: 5%;
+    left: 60%;
+    bottom: 53%;
+    transform: translate(5%,10%);
 }
 
 .pokedex{
